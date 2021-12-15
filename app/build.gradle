@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.eater"
-        minSdk 21
+        minSdk 24
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -55,5 +55,11 @@ dependencies {
     //coroutine
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
+
+    //drawer layout
+    implementation 'com.google.android.material:material:1.2.0-alpha04'
+
+    //default image generator
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
 
 }
